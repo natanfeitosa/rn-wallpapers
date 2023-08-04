@@ -39,6 +39,7 @@ import com.facebook.react.module.annotations.ReactModule;
 @ReactModule(name = RNWallpapersModule.NAME)
 public class RNWallpapersModule extends ReactContextBaseJavaModule {
     public static final String NAME = "RNWallpapers";
+    private final ReactApplicationContext reactContext;
 
     private WallpaperManager wallpaperManager;
     private Promise rctPromise;
@@ -50,6 +51,7 @@ public class RNWallpapersModule extends ReactContextBaseJavaModule {
 
     public RNWallpapersModule(ReactApplicationContext reactContext) {
         super(reactContext);
+        this.reactContext = reactContext;
         mApplicationContext = getReactApplicationContext();
         wallpaperManager = WallpaperManager.getInstance(mApplicationContext);
     }
