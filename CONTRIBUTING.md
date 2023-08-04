@@ -28,11 +28,11 @@ To run the example app on Android:
 yarn example android
 ```
 
-To run the example app on iOS:
+<!-- To run the example app on iOS:
 
 ```sh
 yarn example ios
-```
+``` -->
 
 Make sure your code passes TypeScript and ESLint. Run the following to verify:
 
@@ -47,13 +47,13 @@ To fix formatting errors, run the following:
 yarn lint --fix
 ```
 
-Remember to add tests for your change if possible. Run the unit tests by:
+<!-- Remember to add tests for your change if possible. Run the unit tests by:
 
 ```sh
 yarn test
-```
+``` -->
 
-To edit the Objective-C or Swift files, open `example/ios/RNWallpapersExample.xcworkspace` in XCode and find the source files at `Pods > Development Pods > rn-wallpapers`.
+<!-- To edit the Objective-C or Swift files, open `example/ios/RNWallpapersExample.xcworkspace` in XCode and find the source files at `Pods > Development Pods > rn-wallpapers`. -->
 
 To edit the Java or Kotlin files, open `example/android` in Android studio and find the source files at `rn-wallpapers` under `Android`.
 
@@ -78,7 +78,7 @@ Our pre-commit hooks verify that your commit message matches this format when co
 We use [TypeScript](https://www.typescriptlang.org/) for type checking, [ESLint](https://eslint.org/) with [Prettier](https://prettier.io/) for linting and formatting the code, and [Jest](https://jestjs.io/) for testing.
 
 Our pre-commit hooks verify that the linter and tests pass when committing.
-
+<!--
 ### Publishing to npm
 
 We use [release-it](https://github.com/release-it/release-it) to make it easier to publish new versions. It handles common tasks like bumping version based on semver, creating tags and releases etc.
@@ -87,7 +87,7 @@ To publish new versions, run the following:
 
 ```sh
 yarn release
-```
+``` -->
 
 ### Scripts
 

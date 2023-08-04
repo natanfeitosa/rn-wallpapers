@@ -1,4 +1,4 @@
-package com.rnwallpapers;
+package com.natanapps.rnwallpapers;
 
 import androidx.annotation.NonNull;
 

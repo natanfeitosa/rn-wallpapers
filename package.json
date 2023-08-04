@@ -41,7 +41,9 @@
   "keywords": [
     "react-native",
     "ios",
-    "android"
+    "android",
+    "wallpaper",
+    "customizing"
   ],
   "repository": "https://github.com/natanfeitosa/rn-wallpapers",
   "author": "Natanael dos Santos Feitosa <natansantosapps@gmail.com> (https://github.com/natanfeitosa)",

@@ -6,16 +6,42 @@ A lightweight library for setting wallpapers
 
 ```sh
 npm install rn-wallpapers
+
+// or with yarn
+yarn add rn-wallpapers
 ```
 
 ## Usage
 
 ```js
-import { multiply } from 'rn-wallpapers';
+import { setWallpaper, TYPE_SCREEN } from 'rn-wallpapers';
 
 // ...
 
-const result = await multiply(3, 7);
+
+await setWallpaper(
+  {
+    uri: 'https://i0.wp.com/techwek.com/wp-content/uploads/2021/01/wallpaper-gotas-de-chuva.jpg',
+    headers: {
+      // your custom headers ...
+    }
+  },
+  TYPE_SCREEN.LOCK // Sets the wallpaper on Lock Screen only
+);
+
+await setWallpaper(
+  {
+    uri: 'https://i0.wp.com/techwek.com/wp-content/uploads/2021/01/wallpaper-gotas-de-chuva.jpg'
+  },
+  TYPE_SCREEN.HOME // (default) Sets the wallpaper on Home Screen only
+);
+
+await setWallpaper(
+  {
+    uri: 'https://i0.wp.com/techwek.com/wp-content/uploads/2021/01/wallpaper-gotas-de-chuva.jpg'
+  },
+  TYPE_SCREEN.BOTH // Sets the wallpaper on both screen
+);
 ```
 
 ## Contributing
