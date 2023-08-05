@@ -1,6 +1,12 @@
 # rn-wallpapers
 
-A lightweight library for setting wallpapers
+<p align="center">A lightweight library for setting wallpapers</p>
+<div align="center">
+  <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/natanfeitosa/rn-wallpapers">
+  <img alt="Version in NPM" src="https://img.shields.io/npm/v/rn-wallpapers">
+  <img alt="License in GitHub" src="https://img.shields.io/github/license/natanfeitosa/rn-wallpapers">
+  <img alt="Downloads in NPM" src="https://img.shields.io/npm/dm/rn-wallpapers">
+</div>
 
 ## Installation
 
