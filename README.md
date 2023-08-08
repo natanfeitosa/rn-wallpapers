@@ -1,6 +1,6 @@
 # rn-wallpapers
 
-<p align="center">A lightweight library for setting wallpapers</p>
+<p align="center">A lightweight library for setting wallpapers with React Native</p>
 <div align="center">
   <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/natanfeitosa/rn-wallpapers">
   <img alt="Version in NPM" src="https://img.shields.io/npm/v/rn-wallpapers">
