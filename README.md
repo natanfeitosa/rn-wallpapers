@@ -50,6 +50,8 @@ await setWallpaper(
 );
 ```
 
+> If you are using `Expo Go`, you may need to add the `SET_WALLPAPER` permission to your [permissions array](https://docs.expo.dev/versions/latest/config/app/#permissions)
+
 ## Contributing
 
 See the [contributing guide](CONTRIBUTING.md) to learn how to contribute to the repository and the development workflow.
